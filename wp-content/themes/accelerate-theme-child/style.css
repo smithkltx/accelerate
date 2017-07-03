@@ -54,6 +54,11 @@
 	text-transform: uppercase;
 }
 
+.site-content h5 {
+  text-transform: uppercase;
+  font-family: 'Montserrat';
+
+}
 /* Case studies */
 
 article.case-study{
