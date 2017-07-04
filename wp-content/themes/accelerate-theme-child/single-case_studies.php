@@ -19,15 +19,15 @@ get_header(); ?>
         $link = get_field('site_link');
         $image_1 = get_field('image_1');
         $image_2 = get_field('image_2');
-        $image_3 = get_field('image_3'); ?>
+        $image_3 = get_field('image_3');?>
 
         <article class="case-study">
           <aside class="case-study-sidebar">
             <h2><?php the_title(); ?></h2>
-            <h5><?php echo $services; ?></h5>
+            <h4><?php echo $services; ?></h4>
             <h6>Client: <?php echo $client; ?></h6>
             <?php the_content(); ?>
-            <P><strong><a href="<? php echo $link; ?>">Site Link</a></strong></p>
+            <P><strong><a href="<?php echo $link; ?>">Site Link <span>&rsaquo;</span></a></strong></p>
           </aside>
 
           <div class="case-study-images">
