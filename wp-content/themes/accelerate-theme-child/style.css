@@ -135,3 +135,165 @@ aside.case-study-sidebar-archive h4 {
   color: silver;
   font-size: 14px;
 }
+
+/* Contact Us Page */
+
+/*Button style*/
+#nf-field-4 {
+  background-color: #45ac9d;
+  color: white;
+  padding: 10px 60px 10px 60px;
+  /* Float button to the right */
+  position: relative;
+  display: block;
+  float: right;
+}
+
+/*#nf-form-1-cont {
+  margin: 0 15% 0 15%;
+}*/
+
+/*Contact form label font size*/
+.nf-field-label {
+  font-size: 14px;
+  font-weight: regular;
+}
+
+/* Narrowing content info on contact-us page*/
+.contact-us #content {
+  width: 70%;
+  margin: 0 auto;
+}
+
+/*About page*/
+.about-page {
+  background: url("img/taxi-photo.jpg") no-repeat scroll left center / cover rgba(0, 0, 0, 0);
+/*  height: 10px;*/
+  margin: 0 0 80px;
+  padding: 100px 0;
+}
+
+.about-hero h3 {
+  color: white;
+  width: 70%;
+  margin: 0 auto;
+}
+
+.our-services h5 {
+  line-height: 50px;
+}
+
+div.about-page-summary {
+  text-align: center;
+  line-height: 20%;
+}
+
+.individual-services {
+  padding-right: 10%;
+  display: inline-block;
+}
+
+div.service-image-odd {
+  float: left;
+  margin-left: 30px;
+}
+
+div.service-image-odd img {
+  width: 100%;
+  height: auto;
+  margin-bottom: 50px;
+  margin-left: 30px;
+}
+
+div.service-image-even {
+  display: inline-block;
+}
+
+div.service-image-even img {
+  width: 100%;
+  height: auto;
+  margin-bottom: 50px;
+  padding-top: 80px;
+  margin-left: 10px;
+}
+
+
+div.odd {
+  width: 314px;
+  margin: 0 0 0 70px;
+  display: inline-block;
+}
+
+div.even {
+  width: 314px;
+  margin: 0 0 0 10px;
+}
+
+div.odd h2 {
+  display: inline-block;
+}
+
+div.odd p  {
+  display: inline-block;
+  width: 550px;
+  font-size: 14px;
+}
+
+div.even h2 {
+  display: inline-block;
+  float: left;
+  margin-left: 60px;
+}
+
+div.even p {
+  display: inline-block;
+  width: 550px;
+  font-size: 14px;
+  float: left;
+  margin-left: 60px;
+}
+
+.about-interest{
+  border-top: 1px dotted #e3e1e1;
+  width: 71%;
+  margin: auto;
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: center;
+  padding: 60px 0 10px 0;
+}
+
+.interest-text h3 {
+  margin: 0;
+  padding: 15px 40px;
+  }
+
+.interest-button h3 {
+  background-color: #45ac9d;
+  color: white;
+  padding: 15px 50px;
+  text-align: center;
+  margin: 0;
+}
+
+.interest-button a {
+  color: white;
+  padding: 0 0 0 0;
+}
+
+/* 404 page*/
+
+.error-page {
+  background: url("img/404-image.jpg") no-repeat scroll left center / cover rgba(0, 0, 0, 0);
+  margin: 0 200px 0 200px;
+  padding: 50px 0;
+}
+
+
+.error-message {
+  color: white;
+  font-size: 20px;
+  text-align: center;
+  padding-bottom: 400px;
+  font-family: 'Montserrat';
+}
