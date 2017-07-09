@@ -41,6 +41,7 @@ individual-featured-work {
 
 .blog-post {
 	width: 50%;
+  display: inline-block;
 }
 
 .blog-post h4 {
@@ -84,6 +85,55 @@ aside.case-study-sidebar h4 {
 
 .individual-featured-work h3 {
   font-size: 15px;
+}
+
+/* Twitter Module on Homepage */
+
+aside.twitter-module {
+  width: 40%;
+/* margin: 20px; */
+/* display: inline-block; */
+  float: right;
+
+}
+
+.twitter-module h3 {
+  font-size: 24px;
+  font-family: 'Montserrat';
+  color: black;
+}
+
+.twitter-module h4 {
+  font-size: 16px;
+  font-family: 'Montserrat';
+  color: #a6a6a6;
+}
+
+.twitter-module ul li {
+  font-size: 14px;
+  font-weight: lighter;
+  list-style: none;
+  color: black;
+}
+
+.widget {
+  font-size: 0.83em;
+  font-weight: 600;
+  padding: 0 0px;
+}
+
+.stt-em {
+  font-style: italic;
+  display: block;
+  color: white;
+}
+
+.twitter-module .follow-us-link {
+  font-size: 16px;
+  font-family: 'Montserrat';
+  font-weight: bold;
+  color: #45ac9d;
+  text-transform: uppercase;
 }
 
 
@@ -149,10 +199,6 @@ aside.case-study-sidebar-archive h4 {
   float: right;
 }
 
-/*#nf-form-1-cont {
-  margin: 0 15% 0 15%;
-}*/
-
 /*Contact form label font size*/
 .nf-field-label {
   font-size: 14px;
@@ -168,7 +214,6 @@ aside.case-study-sidebar-archive h4 {
 /*About page*/
 .about-page {
   background: url("img/taxi-photo.jpg") no-repeat scroll left center / cover rgba(0, 0, 0, 0);
-/*  height: 10px;*/
   margin: 0 0 80px;
   padding: 100px 0;
 }
@@ -217,7 +262,6 @@ div.service-image-even img {
   margin-left: 10px;
 }
 
-
 div.odd {
   width: 314px;
   margin: 0 0 0 70px;
@@ -253,7 +297,7 @@ div.even p {
   margin-left: 60px;
 }
 
-.about-interest{
+.about-interest {
   border-top: 1px dotted #e3e1e1;
   width: 71%;
   margin: auto;
@@ -289,11 +333,17 @@ div.even p {
   padding: 50px 0;
 }
 
-
 .error-message {
   color: white;
   font-size: 20px;
   text-align: center;
   padding-bottom: 400px;
   font-family: 'Montserrat';
+}
+
+/* Mailchimp newsletter widget */
+
+.mc4wp-form-fields input[type="submit"] {
+  background-color: #45ac9d;
+  color: white;
 }
